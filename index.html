@@ -411,7 +411,7 @@
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#about">About us</a></li>
                             <li><a href="#services">Services</a></li>
-                            <li><a href="#">Terms of service</a></li>
+                            <li><a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Terms of service</a></li>
                             <li><a href="#">Privacy policy</a></li>
                         </ul>
                     </div>
@@ -429,9 +429,53 @@
             </div>
 
             <div class="container copyright text-center mt-4">
-                <p>© <span>Copyright</span> <strong class="px-1 sitename">Cristiana Alexandra</strong> <span>All Rights Reserved</span></p>
+                <p>© <span>Copyright</span> <strong class="px-1 sitename">Cristiana Alexandra</strong>. <span>All Rights Reserved</span></p>
             </div>
         </footer>
+
+        <!-- Terms of Service Modal -->
+        <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="termsModalLabel">Terms of Service</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Welcome to Cristiana Alexandra!</h6>
+                        <p>These Terms of Service ("Terms") govern your access to and use of our website, services, and any related content. By accessing or using our services, you agree to comply with and be bound by these Terms.</p>
+
+                        <h6>1. Use of Our Services</h6>
+                        <ul>
+                            <li>You must be at least 18 years old to use our services.</li>
+                            <li>You agree to use our website and services only for lawful purposes.</li>
+                            <li>You shall not interfere with or disrupt the functionality of our website.</li>
+                        </ul>
+
+                        <h6>2. Intellectual Property</h6>
+                        <p>All content, including text, graphics, logos, and images, is the property of Cristiana Alexandra and is protected by copyright laws.</p>
+
+                        <h6>3. User Responsibilities</h6>
+                        <p>You are responsible for providing accurate and truthful information when using our services.</p>
+
+                        <h6>4. Privacy Policy</h6>
+                        <p>We collect and process user data in accordance with our Privacy Policy.</p>
+
+                        <h6>5. Limitation of Liability</h6>
+                        <p>Cristiana Alexandra is not responsible for any direct, indirect, or incidental damages arising from the use of our services.</p>
+
+                        <h6>6. Changes to the Terms</h6>
+                        <p>We reserve the right to update or modify these Terms at any time without prior notice.</p>
+
+                        <h6>8. Contact Information</h6>
+                        <p>Email: contact@cristiana-alexandra.com<br>Phone: +49 157 7794 2694 55<br>Address: Nützenberger Straße 31 42115 Wuppertal</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Scroll Top -->
         <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
